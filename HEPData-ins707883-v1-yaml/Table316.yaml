@@ -1,0 +1,72 @@
+dependent_variables:
+- header: {name: D(SIG)/DOMEGA, units: MUB/SR}
+  qualifiers:
+  - {name: EPSILON, value: '0.575'}
+  - {name: PLAB, units: GeV, value: '1.5'}
+  - {name: Q**2, units: GeV^2, value: '0.3'}
+  - {name: RE, value: E- P --> E- PI+ N}
+  - {name: SQRT(S), units: GeV, value: '1.53'}
+  - {name: THETA, units: deg, value: '52.5'}
+  - {name: W, units: GeV, value: '1.53'}
+  values:
+  - errors:
+    - {label: stat, symerror: 0.352}
+    - {label: sys, symerror: 0.327}
+    value: 2.954
+  - errors:
+    - {label: stat, symerror: 0.319}
+    - {label: sys, symerror: 0.387}
+    value: 5.061
+  - {value: '-'}
+  - {value: '-'}
+  - errors:
+    - {label: stat, symerror: 0.283}
+    - {label: sys, symerror: 0.378}
+    value: 4.932
+  - errors:
+    - {label: stat, symerror: 0.598}
+    - {label: sys, symerror: 0.363}
+    value: 4.585
+- header: {name: D(SIG)/DOMEGA, units: MUB/SR}
+  qualifiers:
+  - {name: EPSILON, value: '0.501'}
+  - {name: PLAB, units: GeV, value: '1.5'}
+  - {name: Q**2, units: GeV^2, value: '0.4'}
+  - {name: RE, value: E- P --> E- PI+ N}
+  - {name: SQRT(S), units: GeV, value: '1.53'}
+  - {name: THETA, units: deg, value: '52.5'}
+  - {name: W, units: GeV, value: '1.53'}
+  values:
+  - errors:
+    - {label: stat, symerror: 0.426}
+    - {label: sys, symerror: 0.327}
+    value: 3.59
+  - errors:
+    - {label: stat, symerror: 0.224}
+    - {label: sys, symerror: 0.326}
+    value: 3.525
+  - errors:
+    - {label: stat, symerror: 0.446}
+    - {label: sys, symerror: 0.359}
+    value: 4.782
+  - errors:
+    - {label: stat, symerror: 1.022}
+    - {label: sys, symerror: 0.343}
+    value: 4.367
+  - errors:
+    - {label: stat, symerror: 0.297}
+    - {label: sys, symerror: 0.341}
+    value: 4.594
+  - errors:
+    - {label: stat, symerror: 0.391}
+    - {label: sys, symerror: 0.326}
+    value: 3.515
+independent_variables:
+- header: {name: PHI, units: DEG}
+  values:
+  - {value: 45.0}
+  - {value: 75.0}
+  - {value: 105.0}
+  - {value: 255.0}
+  - {value: 285.0}
+  - {value: 315.0}

@@ -1,0 +1,75 @@
+dependent_variables:
+- header: {name: D(SIG)/DOMEGA, units: MUB/SR}
+  qualifiers:
+  - {name: EPSILON, value: '0.547'}
+  - {name: PLAB, units: GeV, value: '1.5'}
+  - {name: Q**2, units: GeV^2, value: '0.3'}
+  - {name: RE, value: E- P --> E- PI+ N}
+  - {name: SQRT(S), units: GeV, value: '1.55'}
+  - {name: THETA, units: deg, value: '22.5'}
+  - {name: W, units: GeV, value: '1.55'}
+  values:
+  - errors:
+    - {label: stat, symerror: 1.988}
+    - {label: sys, symerror: 0.956}
+    value: 9.054
+  - errors:
+    - {label: stat, symerror: 2.118}
+    - {label: sys, symerror: 1.005}
+    value: 10.63
+  - errors:
+    - {label: stat, symerror: 0.566}
+    - {label: sys, symerror: 0.926}
+    value: 6.276
+  - errors:
+    - {label: stat, symerror: 0.397}
+    - {label: sys, symerror: 0.918}
+    value: 5.86
+  - errors:
+    - {label: stat, symerror: 0.403}
+    - {label: sys, symerror: 0.92}
+    value: 6.168
+  - errors:
+    - {label: stat, symerror: 0.747}
+    - {label: sys, symerror: 0.935}
+    value: 6.813
+  - errors:
+    - {label: stat, symerror: 1.569}
+    - {label: sys, symerror: 0.978}
+    value: 10.3
+  - errors:
+    - {label: stat, symerror: 1.599}
+    - {label: sys, symerror: 0.979}
+    value: 9.0
+- header: {name: D(SIG)/DOMEGA, units: MUB/SR}
+  qualifiers:
+  - {name: EPSILON, value: '0.47'}
+  - {name: PLAB, units: GeV, value: '1.5'}
+  - {name: Q**2, units: GeV^2, value: '0.4'}
+  - {name: RE, value: E- P --> E- PI+ N}
+  - {name: SQRT(S), units: GeV, value: '1.55'}
+  - {name: THETA, units: deg, value: '22.5'}
+  - {name: W, units: GeV, value: '1.55'}
+  values:
+  - {value: '-'}
+  - {value: '-'}
+  - {value: '-'}
+  - {value: '-'}
+  - errors:
+    - {label: stat, symerror: 0.64}
+    - {label: sys, symerror: 0.284}
+    value: 3.462
+  - {value: '-'}
+  - {value: '-'}
+  - {value: '-'}
+independent_variables:
+- header: {name: PHI, units: DEG}
+  values:
+  - {value: 75.0}
+  - {value: 105.0}
+  - {value: 135.0}
+  - {value: 165.0}
+  - {value: 195.0}
+  - {value: 225.0}
+  - {value: 255.0}
+  - {value: 285.0}

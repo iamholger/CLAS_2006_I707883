@@ -1,0 +1,131 @@
+dependent_variables:
+- header: {name: SIG(C=T)+EPSILON*SIG(C=L), units: MUB/SR}
+  qualifiers:
+  - {name: EPSILON, value: '0.796'}
+  - {name: PLAB, units: GeV, value: '1.5'}
+  - {name: Q**2, units: GeV^2, value: '0.3'}
+  - {name: RE, value: E- P --> E- PI+ N}
+  - {name: SQRT(S), units: GeV, value: '1.31'}
+  - {name: W, units: GeV, value: '1.31'}
+  values:
+  - errors:
+    - {symerror: 4.46}
+    value: 16.633
+  - errors:
+    - {symerror: 1.15}
+    value: 14.194
+  - errors:
+    - {symerror: 0.75}
+    value: 10.545
+  - errors:
+    - {symerror: 0.64}
+    value: 9.837
+  - errors:
+    - {symerror: 0.56}
+    value: 6.128
+  - errors:
+    - {symerror: 0.38}
+    value: 5.535
+  - errors:
+    - {symerror: 0.3}
+    value: 4.649
+  - errors:
+    - {symerror: 0.21}
+    value: 3.312
+  - errors:
+    - {symerror: 0.19}
+    value: 2.281
+  - errors:
+    - {symerror: 1.41}
+    value: 1.589
+- header: {name: SIG(C=TL), units: MUB/SR}
+  qualifiers:
+  - {name: EPSILON, value: '0.796'}
+  - {name: PLAB, units: GeV, value: '1.5'}
+  - {name: Q**2, units: GeV^2, value: '0.3'}
+  - {name: RE, value: E- P --> E- PI+ N}
+  - {name: SQRT(S), units: GeV, value: '1.31'}
+  - {name: W, units: GeV, value: '1.31'}
+  values:
+  - errors:
+    - {symerror: 4.1}
+    value: 0.257
+  - errors:
+    - {symerror: 0.35}
+    value: 1.115
+  - errors:
+    - {symerror: 0.36}
+    value: -0.773
+  - errors:
+    - {symerror: 0.3}
+    value: 0.306
+  - errors:
+    - {symerror: 0.52}
+    value: -1.904
+  - errors:
+    - {symerror: 0.19}
+    value: -0.76
+  - errors:
+    - {symerror: 0.1}
+    value: -0.693
+  - errors:
+    - {symerror: 0.08}
+    value: -0.323
+  - errors:
+    - {symerror: 0.2}
+    value: -0.22
+  - errors:
+    - {symerror: 1.45}
+    value: -0.109
+- header: {name: SIG(C=TT), units: MUB/SR}
+  qualifiers:
+  - {name: EPSILON, value: '0.796'}
+  - {name: PLAB, units: GeV, value: '1.5'}
+  - {name: Q**2, units: GeV^2, value: '0.3'}
+  - {name: RE, value: E- P --> E- PI+ N}
+  - {name: SQRT(S), units: GeV, value: '1.31'}
+  - {name: W, units: GeV, value: '1.31'}
+  values:
+  - errors:
+    - {symerror: 8.28}
+    value: 0.073
+  - errors:
+    - {symerror: 0.19}
+    value: 0.04
+  - errors:
+    - {symerror: 0.19}
+    value: -3.395
+  - errors:
+    - {symerror: 0.14}
+    value: -2.568
+  - errors:
+    - {symerror: 0.33}
+    value: -5.526
+  - errors:
+    - {symerror: 0.08}
+    value: -3.315
+  - errors:
+    - {symerror: 0.02}
+    value: -2.687
+  - errors:
+    - {symerror: 0.02}
+    value: -1.649
+  - errors:
+    - {symerror: 0.08}
+    value: -1.197
+  - errors:
+    - {symerror: 1.58}
+    value: -0.505
+independent_variables:
+- header: {name: THETA, units: DEG}
+  values:
+  - {value: 7.5}
+  - {value: 22.5}
+  - {value: 37.5}
+  - {value: 52.5}
+  - {value: 67.5}
+  - {value: 82.5}
+  - {value: 97.5}
+  - {value: 112.5}
+  - {value: 127.5}
+  - {value: 142.5}

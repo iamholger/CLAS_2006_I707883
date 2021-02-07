@@ -1,0 +1,174 @@
+dependent_variables:
+- header: {name: D(SIG)/DOMEGA, units: MUB/SR}
+  qualifiers:
+  - {name: EPSILON, value: '0.869'}
+  - {name: PLAB, units: GeV, value: '1.5'}
+  - {name: Q**2, units: GeV^2, value: '0.3'}
+  - {name: RE, value: E- P --> E- PI+ N}
+  - {name: SQRT(S), units: GeV, value: '1.17'}
+  - {name: THETA, units: deg, value: '142.5'}
+  - {name: W, units: GeV, value: '1.17'}
+  values:
+  - errors:
+    - {label: stat, symerror: 1.115}
+    - {label: sys, symerror: 0.929}
+    value: 8.906
+  - errors:
+    - {label: stat, symerror: 1.294}
+    - {label: sys, symerror: 0.919}
+    value: 10.89
+  - errors:
+    - {label: stat, symerror: 1.028}
+    - {label: sys, symerror: 1.05}
+    value: 14.47
+  - {value: '-'}
+  - {value: '-'}
+  - errors:
+    - {label: stat, symerror: 1.186}
+    - {label: sys, symerror: 1.044}
+    value: 13.76
+  - errors:
+    - {label: stat, symerror: 1.534}
+    - {label: sys, symerror: 0.969}
+    value: 13.2
+  - errors:
+    - {label: stat, symerror: 1.278}
+    - {label: sys, symerror: 0.913}
+    value: 7.686
+- header: {name: D(SIG)/DOMEGA, units: MUB/SR}
+  qualifiers:
+  - {name: EPSILON, value: '0.826'}
+  - {name: PLAB, units: GeV, value: '1.5'}
+  - {name: Q**2, units: GeV^2, value: '0.4'}
+  - {name: RE, value: E- P --> E- PI+ N}
+  - {name: SQRT(S), units: GeV, value: '1.17'}
+  - {name: THETA, units: deg, value: '142.5'}
+  - {name: W, units: GeV, value: '1.17'}
+  values:
+  - errors:
+    - {label: stat, symerror: 2.542}
+    - {label: sys, symerror: 1.182}
+    value: 10.33
+  - errors:
+    - {label: stat, symerror: 1.005}
+    - {label: sys, symerror: 1.174}
+    value: 9.673
+  - errors:
+    - {label: stat, symerror: 1.203}
+    - {label: sys, symerror: 1.249}
+    value: 11.87
+  - errors:
+    - {label: stat, symerror: 4.246}
+    - {label: sys, symerror: 1.154}
+    value: 11.16
+  - errors:
+    - {label: stat, symerror: 1.683}
+    - {label: sys, symerror: 1.161}
+    value: 8.316
+  - errors:
+    - {label: stat, symerror: 1.462}
+    - {label: sys, symerror: 1.295}
+    value: 14.38
+  - errors:
+    - {label: stat, symerror: 1.238}
+    - {label: sys, symerror: 1.158}
+    value: 10.71
+  - errors:
+    - {label: stat, symerror: 4.428}
+    - {label: sys, symerror: 1.155}
+    value: 11.32
+- header: {name: D(SIG)/DOMEGA, units: MUB/SR}
+  qualifiers:
+  - {name: EPSILON, value: '0.779'}
+  - {name: PLAB, units: GeV, value: '1.5'}
+  - {name: Q**2, units: GeV^2, value: '0.5'}
+  - {name: RE, value: E- P --> E- PI+ N}
+  - {name: SQRT(S), units: GeV, value: '1.17'}
+  - {name: THETA, units: deg, value: '142.5'}
+  - {name: W, units: GeV, value: '1.17'}
+  values:
+  - errors:
+    - {label: stat, symerror: 1.415}
+    - {label: sys, symerror: 0.759}
+    value: 8.513
+  - errors:
+    - {label: stat, symerror: 0.825}
+    - {label: sys, symerror: 0.707}
+    value: 7.315
+  - errors:
+    - {label: stat, symerror: 1.04}
+    - {label: sys, symerror: 0.705}
+    value: 8.105
+  - errors:
+    - {label: stat, symerror: 1.004}
+    - {label: sys, symerror: 0.688}
+    value: 6.576
+  - errors:
+    - {label: stat, symerror: 1.564}
+    - {label: sys, symerror: 0.829}
+    value: 9.603
+  - errors:
+    - {label: stat, symerror: 1.086}
+    - {label: sys, symerror: 0.748}
+    value: 8.954
+  - errors:
+    - {label: stat, symerror: 1.043}
+    - {label: sys, symerror: 0.694}
+    value: 7.483
+  - errors:
+    - {label: stat, symerror: 1.095}
+    - {label: sys, symerror: 0.695}
+    value: 5.429
+- header: {name: D(SIG)/DOMEGA, units: MUB/SR}
+  qualifiers:
+  - {name: EPSILON, value: '0.73'}
+  - {name: PLAB, units: GeV, value: '1.5'}
+  - {name: Q**2, units: GeV^2, value: '0.6'}
+  - {name: RE, value: E- P --> E- PI+ N}
+  - {name: SQRT(S), units: GeV, value: '1.17'}
+  - {name: THETA, units: deg, value: '142.5'}
+  - {name: W, units: GeV, value: '1.17'}
+  values:
+  - errors:
+    - {label: stat, symerror: 1.471}
+    - {label: sys, symerror: 1.211}
+    value: 5.337
+  - errors:
+    - {label: stat, symerror: 1.098}
+    - {label: sys, symerror: 1.232}
+    value: 6.631
+  - errors:
+    - {label: stat, symerror: 2.001}
+    - {label: sys, symerror: 1.264}
+    value: 8.109
+  - errors:
+    - {label: stat, symerror: 1.464}
+    - {label: sys, symerror: 1.239}
+    value: 6.995
+  - errors:
+    - {label: stat, symerror: 2.403}
+    - {label: sys, symerror: 1.357}
+    value: 10.49
+  - errors:
+    - {label: stat, symerror: 1.672}
+    - {label: sys, symerror: 1.259}
+    value: 7.55
+  - errors:
+    - {label: stat, symerror: 1.235}
+    - {label: sys, symerror: 1.237}
+    value: 8.135
+  - errors:
+    - {label: stat, symerror: 1.805}
+    - {label: sys, symerror: 1.227}
+    value: 5.33
+independent_variables:
+- header: {name: PHI, units: DEG}
+  values:
+  - {value: 15.0}
+  - {value: 45.0}
+  - {value: 75.0}
+  - {value: 105.0}
+  - {value: 255.0}
+  - {value: 285.0}
+  - {value: 315.0}
+  - {value: 345.0}

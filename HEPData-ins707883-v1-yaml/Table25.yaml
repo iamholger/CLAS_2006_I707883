@@ -1,0 +1,111 @@
+dependent_variables:
+- header: {name: SIG(C=T)+EPSILON*SIG(C=L), units: MUB/SR}
+  qualifiers:
+  - {name: EPSILON, value: '0.85'}
+  - {name: PLAB, units: GeV, value: '1.5'}
+  - {name: Q**2, units: GeV^2, value: '0.4'}
+  - {name: RE, value: E- P --> E- PI+ N}
+  - {name: SQRT(S), units: GeV, value: '1.11'}
+  - {name: W, units: GeV, value: '1.11'}
+  values:
+  - errors:
+    - {symerror: 0.56}
+    value: 3.026
+  - errors:
+    - {symerror: 0.27}
+    value: 3.448
+  - errors:
+    - {symerror: 0.27}
+    value: 3.315
+  - errors:
+    - {symerror: 0.32}
+    value: 3.303
+  - errors:
+    - {symerror: 0.27}
+    value: 2.823
+  - errors:
+    - {symerror: 0.24}
+    value: 3.131
+  - errors:
+    - {symerror: 0.34}
+    value: 3.014
+  - errors:
+    - {symerror: 1.19}
+    value: 3.226
+- header: {name: SIG(C=TL), units: MUB/SR}
+  qualifiers:
+  - {name: EPSILON, value: '0.85'}
+  - {name: PLAB, units: GeV, value: '1.5'}
+  - {name: Q**2, units: GeV^2, value: '0.4'}
+  - {name: RE, value: E- P --> E- PI+ N}
+  - {name: SQRT(S), units: GeV, value: '1.11'}
+  - {name: W, units: GeV, value: '1.11'}
+  values:
+  - errors:
+    - {symerror: 0.44}
+    value: -0.592
+  - errors:
+    - {symerror: 0.14}
+    value: -0.265
+  - errors:
+    - {symerror: 0.14}
+    value: -0.698
+  - errors:
+    - {symerror: 0.23}
+    value: -1.003
+  - errors:
+    - {symerror: 0.24}
+    value: -1.005
+  - errors:
+    - {symerror: 0.16}
+    value: -0.668
+  - errors:
+    - {symerror: 0.27}
+    value: -0.692
+  - errors:
+    - {symerror: 1.17}
+    value: -0.409
+- header: {name: SIG(C=TT), units: MUB/SR}
+  qualifiers:
+  - {name: EPSILON, value: '0.85'}
+  - {name: PLAB, units: GeV, value: '1.5'}
+  - {name: Q**2, units: GeV^2, value: '0.4'}
+  - {name: RE, value: E- P --> E- PI+ N}
+  - {name: SQRT(S), units: GeV, value: '1.11'}
+  - {name: W, units: GeV, value: '1.11'}
+  values:
+  - errors:
+    - {symerror: 0.25}
+    value: 1.302
+  - errors:
+    - {symerror: 0.05}
+    value: -0.159
+  - errors:
+    - {symerror: 0.05}
+    value: -0.057
+  - errors:
+    - {symerror: 0.1}
+    value: -0.247
+  - errors:
+    - {symerror: 0.1}
+    value: -1.012
+  - errors:
+    - {symerror: 0.06}
+    value: -0.816
+  - errors:
+    - {symerror: 0.12}
+    value: -0.961
+  - errors:
+    - {symerror: 1.21}
+    value: -0.38
+independent_variables:
+- header: {name: THETA, units: DEG}
+  values:
+  - {value: 7.5}
+  - {value: 22.5}
+  - {value: 37.5}
+  - {value: 52.5}
+  - {value: 67.5}
+  - {value: 82.5}
+  - {value: 97.5}
+  - {value: 112.5}

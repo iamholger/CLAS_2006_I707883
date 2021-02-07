@@ -1,0 +1,41 @@
+dependent_variables:
+- header: {name: SIG(C=T)+EPSILON*SIG(C=L), units: MUB/SR}
+  qualifiers:
+  - {name: EPSILON, value: '0.47'}
+  - {name: PLAB, units: GeV, value: '1.5'}
+  - {name: Q**2, units: GeV^2, value: '0.4'}
+  - {name: RE, value: E- P --> E- PI+ N}
+  - {name: SQRT(S), units: GeV, value: '1.55'}
+  - {name: W, units: GeV, value: '1.55'}
+  values:
+  - errors:
+    - {symerror: 0.23}
+    value: 1.236
+- header: {name: SIG(C=TL), units: MUB/SR}
+  qualifiers:
+  - {name: EPSILON, value: '0.47'}
+  - {name: PLAB, units: GeV, value: '1.5'}
+  - {name: Q**2, units: GeV^2, value: '0.4'}
+  - {name: RE, value: E- P --> E- PI+ N}
+  - {name: SQRT(S), units: GeV, value: '1.55'}
+  - {name: W, units: GeV, value: '1.55'}
+  values:
+  - errors:
+    - {symerror: 0.26}
+    value: 0.242
+- header: {name: SIG(C=TT), units: MUB/SR}
+  qualifiers:
+  - {name: EPSILON, value: '0.47'}
+  - {name: PLAB, units: GeV, value: '1.5'}
+  - {name: Q**2, units: GeV^2, value: '0.4'}
+  - {name: RE, value: E- P --> E- PI+ N}
+  - {name: SQRT(S), units: GeV, value: '1.55'}
+  - {name: W, units: GeV, value: '1.55'}
+  values:
+  - errors:
+    - {symerror: 0.13}
+    value: -1.528
+independent_variables:
+- header: {name: THETA, units: DEG}
+  values:
+  - {value: 97.5}
