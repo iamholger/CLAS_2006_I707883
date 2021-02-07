@@ -1,0 +1,31 @@
+Name: CLAS_2006_I707883
+Year: 2006
+Summary: Single pi+ electroproduction on the proton in the first and second resonance regions at 0.25 to 0.65 GeV*GeV
+Experiment: CLAS
+Collider: JLAB
+InspireID: 707883
+Status: UNVALIDATED NOTREENTRY NOHEPDATA SINGLEWEIGHT UNPHYSICAL
+Authors:
+ - Your Name <your@email.address>
+References:
+ - 'Phys. Rev. C 73, 025204'
+ - 'https://arxiv.org/abs/nucl-ex/0601007'
+#RunInfo: <Describe event types, cuts, and other general generator config tips.>
+#Beams: [p+, p+]
+#Energies: [[6500,6500]]
+#Luminosity_fb: 139.0
+Description:
+  'A brief description of what is measured and what it is useful for.
+   Use LaTeX for maths, e.g. $\pT > 50\;\GeV$.'
+ValidationInfo:
+  'A description of the process used to validate the Rivet code against
+  the original experimental analysis. Cut-flow tables and similar information
+  are welcome'
+#ReleaseTests:
+# - $A my-hepmc-prefix :MODE=some_rivet_flag
+Keywords: []
+BibKey: 
+BibTeX: ''
+ToDo:
+ - Implement the analysis, test it, remove this ToDo, and mark as VALIDATED :-)
+
