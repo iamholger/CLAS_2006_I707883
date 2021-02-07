@@ -2,7 +2,7 @@ import numpy as np
 
 def read(fname):
     # First line contains array dimensions
-    with open(fname) as f:
+    with open(fname, "r") as f:
         line=f.readline().strip()
         l=line.strip("#")
         dims = [int(i) for i in l.split()]
@@ -26,5 +26,3 @@ def read(fname):
 if __name__ ==  "__main__":
     import sys
     X= read(sys.argv[1])
-    from IPython import embed
-    embed()
